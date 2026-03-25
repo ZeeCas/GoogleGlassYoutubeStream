@@ -1,7 +1,7 @@
 This is an initial release of a solution for getting youtube running on the google glass. It is composed of 3 main components :
 
-* A firefox extension that sends a youtube URL to a python server
-* A Python server that listens for URLs from the firefox extension, and serves the video stream
+* A firefox extension that sends a youtube URL to a python server (found in the firefox_extension folder)
+* A Python server that listens for URLs from the firefox extension, and serves the video stream (found in the server folder)
 * The Glass app that connects to the python server and displays the video stream.
 
 The IP of your python server needs to be set inside of the firefox extension and in the glass app. 
