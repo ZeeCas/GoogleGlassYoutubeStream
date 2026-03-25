@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Glass Caster",
+  "version": "1.0",
+  "description": "Send current YouTube video to Google Glass.",
+  "permissions": ["activeTab", "storage", "http://*/*", "https://*/*"],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "browser_action": {
+    "default_title": "Cast to Glass"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
